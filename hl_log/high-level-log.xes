@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="0" />
+		<event>
+			<int key="case" value="0" />
+			<string key="concept:name" value="exec-High-register request" />
+			<date key="time:timestamp" value="2010-12-29T00:00:00+00:00" />
+			<float key="value" value="3.0" />
+			<string key="entity" value="activity" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<int key="case" value="1" />
+			<string key="concept:name" value="to-exec-High-register request" />
+			<date key="time:timestamp" value="2010-12-29T00:00:00+00:00" />
+			<float key="value" value="4.0" />
+			<string key="entity" value="activity" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<int key="case" value="2" />
+			<string key="concept:name" value="do-High-Mike" />
+			<date key="time:timestamp" value="2010-12-29T00:00:00+00:00" />
+			<float key="value" value="3.0" />
+			<string key="entity" value="resource" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="wt-High-(check ticket,decide)" />
+			<date key="time:timestamp" value="2011-01-03T00:00:00+00:00" />
+			<float key="value" value="375960.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="wt-High-(examine casually,decide)" />
+			<date key="time:timestamp" value="2011-01-03T00:00:00+00:00" />
+			<float key="value" value="384240.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="to-exec-High-decide" />
+			<date key="time:timestamp" value="2011-01-04T00:00:00+00:00" />
+			<float key="value" value="4.0" />
+			<string key="entity" value="activity" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="wt-High-(examine thoroughly,check ticket)" />
+			<date key="time:timestamp" value="2011-01-04T00:00:00+00:00" />
+			<float key="value" value="450360.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="wt-High-(examine casually,decide)" />
+			<date key="time:timestamp" value="2011-01-04T00:00:00+00:00" />
+			<float key="value" value="507960.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="exec-High-register request" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="3.0" />
+			<string key="entity" value="activity" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="to-exec-High-register request" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="4.0" />
+			<string key="entity" value="activity" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="to-exec-High-check ticket" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="4.0" />
+			<string key="entity" value="activity" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="do-High-Sara" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="3.0" />
+			<string key="entity" value="resource" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="todo-High-Mike" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="3.0" />
+			<string key="entity" value="resource" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="busy-High-Mike" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="4.0" />
+			<string key="entity" value="resource" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="enter-High-(register request,examine casually)" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="2.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="exit-High-(check ticket,decide)" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="2.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="wt-High-(check ticket,decide)" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="325500.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="handover-High-(check ticket,decide)" />
+			<date key="time:timestamp" value="2011-01-05T00:00:00+00:00" />
+			<float key="value" value="2.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="to-exec-High-check ticket" />
+			<date key="time:timestamp" value="2011-01-06T00:00:00+00:00" />
+			<float key="value" value="5.0" />
+			<string key="entity" value="activity" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="do-High-Mike" />
+			<date key="time:timestamp" value="2011-01-06T00:00:00+00:00" />
+			<float key="value" value="3.0" />
+			<string key="entity" value="resource" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="busy-High-Mike" />
+			<date key="time:timestamp" value="2011-01-06T00:00:00+00:00" />
+			<float key="value" value="4.0" />
+			<string key="entity" value="resource" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="to-exec-High-decide" />
+			<date key="time:timestamp" value="2011-01-07T00:00:00+00:00" />
+			<float key="value" value="4.0" />
+			<string key="entity" value="activity" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="todo-High-Sara" />
+			<date key="time:timestamp" value="2011-01-07T00:00:00+00:00" />
+			<float key="value" value="3.0" />
+			<string key="entity" value="resource" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="enter-High-(check ticket,decide)" />
+			<date key="time:timestamp" value="2011-01-07T00:00:00+00:00" />
+			<float key="value" value="2.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="3" />
+			<string key="concept:name" value="to-exec-High-decide" />
+			<date key="time:timestamp" value="2011-01-08T00:00:00+00:00" />
+			<float key="value" value="4.0" />
+			<string key="entity" value="activity" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<int key="case" value="4" />
+			<string key="concept:name" value="todo-High-Ellen" />
+			<date key="time:timestamp" value="2011-01-10T00:00:00+00:00" />
+			<float key="value" value="3.0" />
+			<string key="entity" value="resource" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<int key="case" value="5" />
+			<string key="concept:name" value="wt-High-(decide,pay compensation)" />
+			<date key="time:timestamp" value="2011-01-12T00:00:00+00:00" />
+			<float key="value" value="387390.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="5" />
+			<string key="concept:name" value="wt-High-(decide,pay compensation)" />
+			<date key="time:timestamp" value="2011-01-13T00:00:00+00:00" />
+			<float key="value" value="473790.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="5" />
+			<string key="concept:name" value="wt-High-(decide,pay compensation)" />
+			<date key="time:timestamp" value="2011-01-14T00:00:00+00:00" />
+			<float key="value" value="577740.0" />
+			<string key="entity" value="segment" />
+		</event>
+		<event>
+			<int key="case" value="5" />
+			<string key="concept:name" value="wt-High-(decide,pay compensation)" />
+			<date key="time:timestamp" value="2011-01-15T00:00:00+00:00" />
+			<float key="value" value="759300.0" />
+			<string key="entity" value="segment" />
+		</event>
+	</trace>
+</log>
