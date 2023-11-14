@@ -152,12 +152,12 @@ def export_hl_event_log(log, path):
     xes_exporter.apply(log, path)
 
 
-def generate_hl_log(window_border_dict, hle_all, cascade_dict, tz_info, hla_filtered, only_component, flatten):
+def generate_hl_log(name, window_border_dict, hle_all, cascade_dict, tz_info, hla_filtered, only_component, flatten):
     df = create_dataframe(window_border_dict, hle_all, cascade_dict, tz_info, hla_filtered, only_component, flatten)
     hl_log = convert_to_event_log(df)
 
     current_dir = os.path.dirname(__file__)
-    path = os.path.join(current_dir, 'high-level-log.xes')
+    path = os.path.join(current_dir, f'high-level-log_{name}.xes')
     export_hl_event_log(hl_log, path)
 
     return hl_log, df
