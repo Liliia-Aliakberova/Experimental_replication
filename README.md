@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ```
 # ⚠️ Important Notice
 
-If you're replicating the experiment with `evaluationbpm/evaluationbpm23.py`, take note of deprecated functions in the pm4py package (`A_eventually_B`, `A_eventually_B_eventually_C`, `A_eventually_B_eventually_C_eventually_D`). Despite being deprecated, these functions are still functional. To ensure smooth execution, simply comment out the deprecation annotations in `algo/filtering/log/ltl/ltl_checker.py` file. 
+If you're replicating the experiment with `evaluationbpm/evaluationbpm23.py`, take note of deprecated functions in the pm4py package (`A_eventually_B`, `A_eventually_B_eventually_C`, `A_eventually_B_eventually_C_eventually_D`). To ensure smooth execution, simply comment out the deprecation annotations in `algo/filtering/log/ltl/ltl_checker.py` file. 
 
 ## Replication Steps
 
