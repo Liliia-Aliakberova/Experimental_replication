@@ -13,6 +13,8 @@ Ensure you have the required dependencies installed. Open your terminal or comma
 ```plaintext
 pip install -r requirements.txt
 ```
+⚠️ Important Note
+If replicating the experiment with evaluationbpm/evaluationbpm23.py, be aware of deprecated functions in the pm4py package (A_eventually_B, A_eventually_B_eventually_C, A_eventually_B_eventually_C_eventually_D). Although marked as deprecated, these functions remain functional. To run smoothly, comment out the deprecation annotations. This allows continued use until an alternative or updated pm4py package is available.
 
 ## Replication Steps
 
